@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//定义后台路由admin
+include_once('admin.php');
